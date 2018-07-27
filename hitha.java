@@ -1,5 +1,7 @@
 /* package whatever; // don't place package name! */
 
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -9,7 +11,10 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		for (int i = 0; i < 5; i++) {
+		int n,i;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		for (i = 1; i <= 5; i++) {
 			System.out.println("Hello\n");
 		}// your code goes here
 	}
